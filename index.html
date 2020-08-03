@@ -32,8 +32,8 @@
                         <h2>Michelle Appleton</h2>
                         <time datetime="2020-06-28">28 jun 2020</time>
                    </div>
-                   <img src="./img/icon-share.svg" alt="Compartilhar" class="share" onclick="share()">
-                   <div class="social" style="display: none;">
+                   <img src="./img/icon-share.svg" alt="Compartilhar" class="share" onclick="share()" aria-controls="social">
+                   <div class="social" id="social" style="display: none;">
                        <span>Share</span>
                        <a href="#" title="Facebook" target="_blank" class="icon-social">
                            <img src="./img/icon-facebook.svg" alt="Facebook">
@@ -44,7 +44,7 @@
                        <a href="#" title="Pinterest" target="_blank" class="icon-social">
                            <img src="./img/icon-pinterest.svg" alt="Pinterest">
                        </a>
-                       <img src="./img/icon-share.svg" alt="Compartilhar" class="share" onclick="share()">
+                       <img src="./img/icon-share.svg" alt="Fechar" aria-controls="social" class="share" onclick="share()">
                    </div>
                </div>
            </div>
