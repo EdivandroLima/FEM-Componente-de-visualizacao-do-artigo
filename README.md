@@ -2,7 +2,7 @@
 
 Este é meu envio ao desafio do [Frotend Mentor](https://www.frontendmentor.io/profile/EdivandroLima).
 
-Clique [aqui](url) para ver como ficou.
+Clique [aqui](https://fem-componente-de-visualizacao-do-artigo.vercel.app/) para ver como ficou.
 
 ## Ferramentas utilizadas
 -[x] HTML5
