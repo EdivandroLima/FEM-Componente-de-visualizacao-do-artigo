@@ -12,14 +12,14 @@ body {
 }
 
 /* Tipografia */
-h1, h4 {
+h1, h2 {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 700;
 	color: hsl(217, 19%, 35%);
 	font-size: 20px;
 	margin: 0
 }
-h4 {
+h2 {
 	font-size: 15px
 }
 p, data, .social, footer, footer a {
