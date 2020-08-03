@@ -22,7 +22,7 @@ h1, h2 {
 h2 {
 	font-size: 15px
 }
-p, data, .social, footer, footer a {
+p, time, .social, footer, footer a {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 500;
 	color: hsl(212, 23%, 69%);
