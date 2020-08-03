@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Normalize -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Estilo -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <title>Componente de visualização do artigo</title>
+</head>
+<body>
+    <div class="container">
+        <article class="row">
+           <div class="img"></div>
+           <div class="col">
+               <div style="padding: 25px 25px 0 25px;">
+                    <h1 class="titulo">Altere a aparência geral adicionando esses maravilhosos móveis em sua casa</h1>
+                    <p class="descricao">
+                       Já esteve em uma sala e sentiu que algo estava faltando? Possivelmente parecia um pouco nu e pouco convidativo. Eu tenho algumas dicas simples para ajudá-lo a fazer qualquer ambiente parecer completo.
+                    </p>
+               </div>
+               <div class="pessoa">
+                   <img src="./img/avatar-michelle.jpg" alt="Michelle Appleton" class="avatar">
+                   <div>
+                        <h4>Michelle Appleton</h4>
+                        <data>28 jun 2020</data>
+                   </div>
+                   <img src="./img/icon-share.svg" class="share" onclick="share()">
+                   <div class="social" style="display: none;">
+                       <span>Share</span>
+                       <a href="#" title="Facebook" target="_blank" class="icon-social">
+                           <img src="./img/icon-facebook.svg" alt="Facebook">
+                       </a>
+                       <a href="#" title="Twitter" target="_blank" class="icon-social">
+                           <img src="./img/icon-twitter.svg" alt="Twitter">
+                       </a>
+                       <a href="#" title="Pinterest" target="_blank" class="icon-social">
+                           <img src="./img/icon-pinterest.svg" alt="Pinterest">
+                       </a>
+                       <img src="./img/icon-share.svg" class="share" onclick="share()">
+                   </div>
+               </div>
+           </div>
+        </article>
+    </div>
+    <footer>
+        <p>
+            Desafio do <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Codificado por <a href="https://github.com/EdivandroLima" target="_blank">Edivandro Lima</a>.
+        </p>
+    </footer>
+    <!-- JavaScript -->
+    <script>
+        function share() {
+            let social= document.getElementsByClassName('social')[0]
+            if (social.style.display == 'none') {
+                social.style.display='flex'
+            }
+            else {
+                social.style.display='none'
+            }
+        }
+    </script>
+</body>
+</html>
